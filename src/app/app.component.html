@@ -1,2 +1,2 @@
-<app-header [title]="title" (sidenavEvent)=''></app-header>
-  <app-sidenav></app-sidenav>
+<app-header [title]="title" [sidenav]= "sidenav"></app-header>
+<app-sidenav (setSideNavControl)="setsidenav($event)"></app-sidenav>
